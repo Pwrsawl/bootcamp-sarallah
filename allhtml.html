@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پروژه HTML</title>
+</head>
+<body>
+
+   
+    <header>
+        <h1>هیئت ثارالله</h1>
+        <h2>مهدی رسولی</h2>
+        <h3>رهروان امام و شهدا</h3>
+    </header>
+
+    
+    <nav>
+        <ul>
+            <li><a href="#about">درباره ما</a></li>
+            <li><a href="#gallery">گالری</a></li>
+            <li><a href="#contact">تماس با ما</a></li>
+        </ul>
+    </nav>
+
+   
+    <main>
+        <section id="about">
+            <article>
+                <h4>درباره هیئت</h4>
+                <p>این بخش شامل اطلاعاتی درباره هیئت ثارالله است.</p>
+            </article>
+        </section>
+
+        <section id="gallery">
+            <h4>گالری تصاویر</h4>
+            <img src="." alt="تصویر اول">
+            <img src="." alt="تصویر دوم">
+        </section>
+
+        <section id="form">
+            <h4>فرم ثبت نام</h4>
+            <form action="./index1.html">
+                <label for="name">نام و نام خانوادگی:</label>
+                <input type="text" id="name" placeholder="نام " required>
+                
+                <label for="age">سن:</label>
+                <input type="number" id="age">
+                
+                <label for="gender">جنسیت:</label>
+                <div>
+                    <label for="male">مذکر</label>
+                    <input type="radio" id="male" name="gender" value="1">
+                    <label for="female">مونث</label>
+                    <input type="radio" id="female" name="gender" value="2">
+                </div>
+
+                <label for="category">دسته‌بندی:</label>
+                <select id="category">
+                    <option value="1">item 1</option>
+                    <option value="2">item 2</option>
+                    <option value="3">item 3</option>
+                </select>
+                
+                <label for="comments">نظرات:</label>
+                <textarea id="comments">jksdfhjkdfhjksdf</textarea>
+
+                <div>
+                    <input type="checkbox" id="option1" value="1">
+                    <label for="option1">گزینه ۱</label>
+                    <input type="checkbox" id="option2" value="2">
+                    <label for="option2">گزینه ۲</label>
+                    <input type="checkbox" id="option3" value="3">
+                    <label for="option3">گزینه ۳</label>
+                </div>
+
+                <button type="submit">ارسال</button>
+            </form>
+        </section>
+
+        <section id="table">
+            <h4>جدول اطلاعات</h4>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>ستون اول</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ردیف دوم ستون اول</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>پاورقی جدول</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+    </main>
+
+  
+    <aside>
+        <p>این یک نوار کناری است.</p>
+    </aside>
+
+    
+    <section id="lists">
+        <h4>لیست‌ها</h4>
+        <ol>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+        </ol>
+        <ul>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+        </ul>
+    </section>
+
+   
+    <footer>
+        <p>تمامی حقوق محفوظ است.</p>
+    </footer>
+
+</body>
+</html>
